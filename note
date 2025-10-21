@@ -1,0 +1,3 @@
+# 2025-10-21 memo
+After reviewing selection sort and bubble sort from class, I reworte both from scratch and added comments to make sure I really understood how they work.
+Now that i`ve grasped the basics, I wanna explore by changing parts of the code and seeing how it affects the behavior.
