@@ -1,0 +1,22 @@
+# 2025-10-21 #
+After reviewing selection sort and bubble sort from class, I reworte both from scratch and added comments to make sure I really understood how they work.
+Now that i`ve grasped the basics, I wanna explore by changing parts of the code and seeing how it affects the behavior.
+
+# 2025-10-23 #
+[Understanding Selection Sort]
+I struggled to understand the algorithm and codes of selection of sort,so i ran the program and carefully examined the output to deepen my understanding.
+
+1.[The structure of "for j in range(i+1.len(arr))]
+At first, didnt understand why "range" had two arguments.Eventually, I realized they represent the start and end of the range.i*1 means the search starts 
+from the next index after current posion, and "len(arr)" ensures the loop goes to the end of the array.This structure  allows the program to efficiently 
+compare only the unsorted portion.
+
+2.[The roles of "i" and "j" in the for loop]
+I was confused about the diffrence between "i" and "j", but i leared that "i" controls which posiotion to place the minimum value, and it loops through
+the entire array. Meanwhile "j" is used to search for the smallest value by comparing elements after i.
+
+3. [The meaning of arr[i], arr, and "i"] 
+・arr"i" refers to the element at index "i"
+・arr refers to the entire array
+・"i" represents the current index being sorted
+By clarifying the roles of each variable, I was able to better understand how the code works.
